@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+
+body {
+  background: linear-gradient(#c28eda 0%, #bd90d1 40%, #9766cf 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-light {
+  background: #00000000 !important;
+  /* backdrop-filter: blur(3px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589); */
+  transition: all 0.5s;
+}
+.bg-light.scrolled {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+.nav a {
+  color: white;
+}
+.nav a:hover {
+  color: rgb(192, 191, 191);
+}
+.nav.scrolled a {
+  color: rgb(155, 49, 255);
+}
+.nav.scrolled a:hover {
+  color: rgb(208, 157, 255);
+}
+.buttonToggle {
+  display: none;
+}
+.initial {
+  font-family: "Vampiro One", cursive;
+  font-size: 30px;
+  margin: -10px;
+}
+.all-body-cover {
+  margin-top: 200px;
+}
+.opening {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.nama {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.img-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.waves {
+  margin-top: -100px;
+  margin-bottom: 70px;
+}
+.firstContainer {
+  background: linear-gradient(
+    #ffffff 0%,
+    #ffffff 50%,
+    #ffffffde 70%,
+    #ffffffb6 75%,
+    #ffffff7e 80%,
+    #ffffff49 85%,
+    #ffffff1f 90%,
+    #ffffff00 100%
+  );
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding-bottom: 400px;
+}
+.nameHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subNameHeading {
+  display: none;
+}
+/* Kontainer Umum */
+.firstContainer .container {
+  max-width: 1200px; /* Membatasi lebar kontainer */
+  margin: 0 auto; /* Tengah secara horizontal */
+  padding: 20px;
+}
+.firstContainer .col-md-6 p {
+  text-align: center; /* Rata tengah teks */
+  line-height: 1.6; /* Jarak antar baris */
+}
+
+/* Kolom Kanan (Carousel) */
+.carousel .carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item img {
+  max-width: 100%; /* Gambar mengisi lebar kolom */
+  height: auto; /* Mempertahankan rasio gambar */
+  object-fit: cover; /* Menyesuaikan gambar jika ukuran melebihi kolom */
+  border-radius: 10px; /* Sudut melengkung */
+  transform: translateX(-150px); /* Geser 10px ke kiri */
+}
+
+/* Kolom Kiri (Teks) */
+.col-md-6 {
+  padding: 10px; /* Memberikan ruang pada teks dan gambar */
+}
+
+/* Tombol */
+.btn {
+  margin-top: 10px;
+}
+#CurriculumVitae {
+  background-color: #f9f9f9; /* Latar belakang lembut */
+  border-radius: 8px; /* Sudut melengkung */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  padding: 40px; /* Jarak dalam */
+  margin-top: 30px; /* Jarak dengan elemen lain */
+}
+
+#CurriculumVitae h1 {
+  color: #333; /* Warna heading */
+  margin-bottom: 20px; /* Jarak bawah heading */
+}
+
+#CurriculumVitae img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan gambar */
+  margin-left: 80px;
+}
+
+#Curriculumvitae h3 {
+  align-items: center;
+  display: flex;
+}
+
+#CurriculumVitae h4 {
+  color: #555; /* Warna subheading */
+  margin-top: 20px; /* Jarak atas subheading */
+}
+
+#CurriculumVitae h6 {
+  color: #555; /* Warna subheading */
+  margin-top: 20px; /* Jarak atas subheading */
+}
+
+#CurriculumVitae ul {
+  list-style-type: disc; /* Bullet points */
+  padding-left: 20px; /* Jarak kiri */
+}
+
+#CurriculumVitae ul li {
+  margin-bottom: 10px; /* Jarak antar item */
+  color: #555; /* Warna teks */
+}
+.content .row {
+  padding-bottom: 40px;
+}
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.itemEdu {
+  padding: 10px;
+}
+.startEnd {
+  margin-bottom: -1px;
+}
+.achive {
+  margin-top: -200px;
+  margin-bottom: 30px;
+  color: rgb(5, 4, 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wavesss {
+  margin-bottom: -20px;
+}
+
+.fourthContainer {
+  margin-top: 200px;
+}
+.fivethContainer {
+  margin-top: -150px;
+  background-color: #fff;
+}
+.linkSosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contactMe {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  background: white;
+  color: black;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Bingkai artikel */
+.article-frame {
+  border: 10px solid #ffffff; /* Warna bingkai putih */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan bingkai */
+  padding: 20px; /* Tambahan ruang di dalam bingkai */
+  background-color: #ffffff; /* Latar belakang bingkai */
+  max-width: 900px; /* Lebar maksimum bingkai */
+  margin: 20px auto; /* Tengah secara horizontal dan vertikal */
+  text-align: center; /* Konten rata tengah */
+  border-radius: 10px; /* Membuat sudut bingkai melengkung */
+}
+
+/* Gambar responsif */
+.article-frame img {
+  width: 100%; /* Gambar menyesuaikan ukuran bingkai */
+  height: auto; /* Menjaga rasio gambar */
+  border-radius: 10px; /* Melengkungkan sudut gambar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Tambahkan bayangan pada gambar */
+}
+
+/* Judul dan deskripsi */
+.article-frame figcaption h5 {
+  margin-top: 20px; /* Tambahkan ruang di atas judul */
+  font-weight: bold; /* Judul lebih tebal */
+  color: #495057; /* Warna teks lebih gelap */
+  font-size: 20px; /* Ukuran font untuk judul */
+}
+
+.article-frame figcaption p {
+  font-size: 16px; /* Ukuran font untuk deskripsi */
+  color: #6c757d; /* Warna teks deskripsi */
+  line-height: 1.6; /* Memberikan jarak antar baris */
+  margin-top: 8px; /* Tambahkan jarak di atas teks */
+}
+
+/* Kontainer artikel */
+.container {
+  display: flex;
+  flex-direction: column; /* Elemen ditumpuk ke bawah */
+  align-items: center; /* Tengah secara horizontal */
+  padding: 20px; /* Tambahkan padding di dalam kontainer */
+}
